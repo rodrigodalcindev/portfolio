@@ -1,12 +1,45 @@
 .s-project
   padding-top: 15vh
 
+  @include respond-to("bp--1")
+    section
+      padding: 0 0 $b-space-l
+
+      &.s-project--intro
+        padding-top: $b-space-xl
+
+      &.s-project--approach
+        padding-bottom: 0
+
+      h3
+        margin-bottom: $b-space-xs
+
+.s-project--intro
+  @include respond-to("bp--1")
+    img
+      display: block
+      margin: 0 auto $b-space-l
+      max-width: rem(420)
+      width: 100%
+
+.s-project--title
+  @include respond-to("bp--1")
+    margin-bottom: $b-space-xs
+
 .s-project--visuals
   background: rgba($tufts-blue, .75)
+
+  &.slideshow
+    @include respond-to("bp--1")
+      padding: $b-space
+
+      figure
+        padding: $b-space-xs 0
 
   img
     box-shadow: 5px 5px 0px 0px rgba($black, 0.15)
     max-width: rem(1145)
+    width: 100%
 
   ul[data-group="greetabl"]
     img
@@ -14,6 +47,38 @@
       max-width: rem(300)
       margin: 0 $b-space
 
+    @include respond-to("bp--2")
+      img
+        max-width: rem(200)
+
+    @include respond-to("bp--0")
+      li
+        display: block
+        margin-top: $b-space
+
+        &:first-child
+          margin-top: 0
+
+      img
+        margin: 0 auto
+
   ul[data-group="hatch"]
     img[src*="prototype"]
       box-shadow: none
+
+  @include respond-to("bp--1")
+    margin-bottom: $b-space-l
+    padding: $b-space-l $b-space
+
+    figure
+      margin: 0
+
+    img
+      cursor: auto
+      pointer-events: none
+
+    .s-project--mockupGroup
+      margin: $b-space 0 0
+
+      &:first-child
+        margin-top: 0

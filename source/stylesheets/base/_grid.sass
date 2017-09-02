@@ -17,9 +17,17 @@
     &:last-child
       padding-right: 0
 
+  @include respond-to("bp--1")
+    padding: 0 $b-space-xs
+
 div[class*="g-pageContainer-column"]
   display: inline-block
   padding: $b-space-s
+
+  @include respond-to("bp--1")
+    display: block
+    padding: 0
+    width: 100%
 
 .g-pageContainer-column--oneThird
   width: rem(300)

@@ -30,6 +30,15 @@ header
       font-size: rem(48)
       letter-spacing: rem(-1)
 
+    @include respond-to("bp--0")
+      h1
+        font-size: rem(32)
+        letter-spacing: rem(-0.67)
+
+      strong
+        font-size: rem(20)
+        letter-spacing: rem(-0.42)
+
   &.pof
     left: 0
     top: 0

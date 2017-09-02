@@ -57,14 +57,14 @@ section.s-project--approach.ptl
       .s-project--visuals.ptxl.pbxl.mtl.mbxxl class="#{b.visuals.length > 1 ? 'slideshow' : 'non-slideshow'}"
         - if !b.visuals.include? "groups"
           - b.visuals.each do |v|
-            figure.mtl.mbl
+            figure.mtl.mbl.mlm.mrm
               img.db.mhc src="/images/work/#{current_page.data.id}/#{v}" data-featherlight="/images/work/#{current_page.data.id}/#{v}"
         - else
           - b.visuals.groups.each do |g|
             ul.s-project--mockupGroup.mtl.mbl.tac data-group="#{current_page.data.id}"
               - g["group"].each do |vv|
                 li.dib
-                  figure
+                  figure.mlm.mrm
                     img.db src="/images/work/#{current_page.data.id}/#{vv}" data-featherlight="/images/work/#{current_page.data.id}/#{vv}"
 
 section.s-project--solution.pbxxl
