@@ -12,7 +12,7 @@ section.s-home--work.ptxxl.pbxxl
               img.db.poa src="#{'/images/work/' + p.first + '/main.png'}"
               figcaption
                 h2.mbxxs
-                  = p.first
+                  = data.projects[p.first].overview.title
                 p.weight-medium.mbs
                   - data.projects[p.first].overview.methodology.each_with_index do |m, idx|
                     = m.name
