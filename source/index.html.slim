@@ -1,0 +1,49 @@
+---
+type: "home"
+---
+
+section.s-home--work.ptxxl.pbxxl
+  ul.tac
+    - data.projects.each do |p|
+      li.dib.mlm.mrm.tal
+        = link_to "#{'/work/' + p.first + '.html'}" do
+          .s-home--card.pbl.pll.prl
+            figure.mbxl.por
+              img.db.poa src="#{'/images/work/' + p.first + '/main.png'}"
+              figcaption
+                h2.mbxxs
+                  = p.first
+                p.weight-medium.mbs
+                  - data.projects[p.first].overview.methodology.each_with_index do |m, idx|
+                    = m.name
+                    - unless data.projects[p.first].overview.methodology.last == m
+                      |,&nbsp;
+                p.lead
+                  = data.projects[p.first].overview.blurb
+            p.lead.cta.weight-medium
+              | See case study ->
+
+section.s-home--about
+  .s-home-section--trigger
+    h1.has-highlighter
+      = link_to 'About Me', '#'
+/
+  section.s-home--projects#work
+    h3.dib.tar.ttu.ptxxs.vat
+      | Work
+    ul.dib.vat
+      li.dib.mll
+        figure
+          figcaption
+            h4
+              = link_to 'Hatch', '/work/hatch.html'
+      li.dib.mll
+        figure
+          figcaption
+            h4
+              = link_to 'Tokyo Smoke', '/work/tokyosmoke.html'
+      li.dib.mll
+        figure
+          figcaption
+            h4
+              = link_to 'Greetabl', '/work/greetabl.html'

@@ -1,0 +1,44 @@
+.s-home
+  section
+    min-height: rem(199)
+    width: 100%
+
+    &.s-home--work
+      background: $tufts-blue
+
+    &.s-home--about
+      background: $verdigris
+
+    &:not(.s-home--work)
+      @include display(flex)
+      @include align-items(center)
+      @include justify-content(center)
+
+    h1
+      color: $white
+
+.s-home--work
+  ul
+    margin-top: rem(175)
+
+.s-home--card
+  @include transition(box-shadow .5s ease-out)
+  box-shadow: 0px 0px 0px 0px rgba($black, 0)
+  background: $smoke-white
+  max-width: rem(420)
+  width: 100%
+
+  &:hover
+    box-shadow: 5px 5px 0px 0px rgba($black, 0.15)
+
+  figure
+    padding-top: rem(145)
+
+  img
+    @include transform(translate(-50%, -100%))
+    left: 50%
+    top: rem(115)
+    width: 100%
+
+    &[src*="greetabl"]
+      width: 75%

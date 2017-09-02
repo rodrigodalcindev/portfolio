@@ -1,0 +1,38 @@
+doctype html
+html
+  head
+    meta content="IE=edge" http-equiv="X-UA-Compatible"
+    meta charset="utf-8"
+    meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"
+
+    title
+      = "Rodrigo Dalcin - UX Researcher"
+
+    = javascript_include_tag :site
+
+    link href="https://fonts.googleapis.com/css?family=Roboto:700i,900i" rel="stylesheet"
+
+    link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+
+    = stylesheet_link_tag :site
+
+  body
+    header class="#{'is-redux pof' unless current_page.data.type == 'home'}" data-page="#{current_page.data.type}"
+      .l-header--logo.tar
+        h1.plxxs.prxxs
+          | Rodrigo Dalcin
+        strong.dib.plxxs.prxxs.ttu
+          | UX Specialist
+      - unless current_page.data.type == "home"
+        nav.l-nav--action.tac.poa
+          = link_to '/' do
+            i.db
+              | ←
+            span.weight-medium.mtxxs.ttu.db
+              | Back
+    main class="s-#{current_page.data.type}"
+      = yield
+    footer
+      .s-home-section--trigger
+        h1.has-highlighter
+          = link_to 'Contact', '#'

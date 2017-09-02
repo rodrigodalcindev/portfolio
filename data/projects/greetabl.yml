@@ -1,0 +1,54 @@
+overview:
+  title: "Greetabl"
+  url: "https://greetabl.com/"
+  roles:
+    - UX Researcher
+    - UX Designer
+  methodology:
+    - method:
+      name: UX Research
+      items:
+        - Heuristics
+        - NPS Data Analysis
+    - method:
+      name: UX Design
+      items:
+        - Coded Mockups
+        - Animated Mockups
+    - method:
+      name: Usability Testing
+      items:
+        - Screening
+        - Recruiting
+        - Usability Testing
+        - Data Analysis
+  blurb: "This casual gifting company needed help pinpointing UI/UX improvements for their mobile users."
+  intro:
+    - "Greetabl is a startup based in Saint Louis, whose mission is to make the art of casual gifting easier and more fun."
+  problem:
+    - "With almost half of their website traffic coming from mobile users, Greetabl was seeing a higher bounce rate and influx of customer service issues coming from that segment."
+  solution:
+    - "I pinpointed the most relevant UI/UX and content issues that were potentially damaging Greetabl's mobile experience, which helped the design and content strategy teams focus on relevant areas of improvement."
+  workflow:
+    - block:
+      copy: "My research work started by interviewing Greetabl's customer service representatives and digging into existing qualitative data, such as analytics and NPS reports. I was able to get a more detailed picture of what issues their mobile users were facing in order to focus on the most problematic interactions during usability testing."
+      visuals:
+        - "nps.jpg"
+    - block:
+      copy: "After recruiting a group of six testers whose profiles matched Greetabl's target demographics, I assigned these participants a list of tasks that covered the issues identified earlier. My goal was to better understand when, why and how they happened based on direct feedback."
+      visuals:
+        - "usability_patterns.jpg"
+    - block:
+      copy: "The insights from these usability sessions was then used to define a list of opportunities for UI/UX improvement. I also made sure these were aligned with a list of references and best practices from a heuristics exercise I had conducted alongside Greetabl stakeholders during the project kickoff. Among the aspects highlighted were ease of use, minimalistic UI and level of product customization."
+      visuals:
+        - "heuristics.jpg"
+    - block:
+      copy: "Using my skillset in front-end development, I came up with a series of mockups based on coded tweaks made to Greetabl's existing mobile experience. These were key in order to illustrate the recommended UI/UX changes and guide the redesign process."
+      visuals:
+        groups:
+          - group:
+            - "builder_bag_after.gif"
+            - "custom_03.png"
+            - "checkout_signup_after.gif"
+  learnings:
+    - "The most interesting thing about this project was being able to apply my coding skills as a way to quickly convey how an existing experience can become better. This created a multidisciplinary bridge across all project teams, allowing me to use a common language in order to strategize, mediate and guide work between UI designers and UI engineers."

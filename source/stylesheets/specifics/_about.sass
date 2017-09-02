@@ -1,0 +1,33 @@
+.s-about
+  @include display(flex)
+
+  @include respond-to("bp--1")
+    @include display(block)
+
+  aside
+    left: rem(50)
+    top: rem(80)
+
+    img
+      max-width: none
+      width: rem(300)
+
+    @include respond-to("bp--1")
+      position: static
+
+      .s-about--title
+        display: block
+
+  section
+    padding-left: rem(330)
+    width: 100%
+
+    @include respond-to("bp--1")
+      padding-left: 0
+
+      .s-about--title
+        display: none
+
+  article
+    p
+      max-width: rem(800)

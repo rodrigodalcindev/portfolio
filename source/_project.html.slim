@@ -1,0 +1,77 @@
+section.s-project--intro.ptxxl.pbl
+  .g-pageContainer
+    .g-pageContainer-column--oneThird.vab
+      img src="/images/work/#{current_page.data.id}/main.png"
+    .g-pageContainer-column--twoThirds.vab
+      h2.s-project--title.mbm
+        = data.projects[current_page.data.id].overview.title
+      - data.projects[current_page.data.id].overview.intro.each do |p|
+        p.lead
+          = p
+
+section.s-project--workflow.ptl.pbl
+  .g-pageContainer
+    .g-pageContainer-column--oneThird.vat
+      h3.dib.vat
+        | Workflow
+    .g-pageContainer-column--twoThirds.vat
+      .s-project--activities.dib.vat
+        - data.projects[current_page.data.id].overview.methodology.each_with_index do |m, idx|
+          span.weight-medium.db class="#{'mtl' unless idx == 0}"
+            = m.name
+          ul
+            - m.items.each do |i|
+              li.dib.mrm.mts
+                span.tag.dib.paxxs
+                  = i
+
+section.s-project--problem.ptl.pbl
+  .g-pageContainer
+    h3.mbm
+      | Issue
+
+    - data.projects[current_page.data.id].overview.problem.each do |p|
+      p
+        = p
+
+section.s-project--solution.ptl.pbl
+  .g-pageContainer
+    h3.mbm
+      | Solution
+
+    - data.projects[current_page.data.id].overview.solution.each do |p|
+        p
+          = p
+
+section.s-project--approach.ptl
+  .g-pageContainer
+    h3.mbm
+      | Approach
+
+  - data.projects[current_page.data.id].overview.workflow.each do |b|
+    .g-pageContainer
+      p
+        = b.copy
+
+    - if b.include? "visuals"
+      .s-project--visuals.ptxl.pbxl.mtl.mbxxl class="#{b.visuals.length > 1 ? 'slideshow' : 'non-slideshow'}"
+        - if !b.visuals.include? "groups"
+          - b.visuals.each do |v|
+            figure.mtl.mbl
+              img.db.mhc src="/images/work/#{current_page.data.id}/#{v}" data-featherlight="/images/work/#{current_page.data.id}/#{v}"
+        - else
+          - b.visuals.groups.each do |g|
+            ul.s-project--mockupGroup.mtl.mbl.tac data-group="#{current_page.data.id}"
+              - g["group"].each do |vv|
+                li.dib
+                  figure
+                    img.db src="/images/work/#{current_page.data.id}/#{vv}" data-featherlight="/images/work/#{current_page.data.id}/#{vv}"
+
+section.s-project--solution.pbxxl
+  .g-pageContainer
+    h3.mbm
+      | Learnings
+
+    - data.projects[current_page.data.id].overview.learnings.each do |p|
+        p
+          = p
