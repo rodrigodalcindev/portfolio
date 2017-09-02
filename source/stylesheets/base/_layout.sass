@@ -38,6 +38,10 @@ header
   &[data-page="project"]
     background: $tufts-blue
 
+  @include respond-to("bp--0")
+    height: 15vh
+    min-height: 0
+
 img
   max-width: 100%
 
@@ -59,6 +63,15 @@ img
     font-size: rem(24)
     font-style: italic
     letter-spacing: rem(-0.5)
+
+  @include respond-to("bp--0")
+    h1
+      font-size: rem(32)
+      letter-spacing: rem(-0.67)
+
+    strong
+      font-size: rem(20)
+      letter-spacing: rem(-0.42)
 
 .l-nav--action
   @include transform(translateY(-50%))
