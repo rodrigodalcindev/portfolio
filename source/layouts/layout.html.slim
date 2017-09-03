@@ -19,7 +19,7 @@ html
   body
     = partial 'navigation'
     header class="#{current_page.data.type == 'home' ? 'por' : 'is-redux pof'}" data-page="#{current_page.data.type}"
-      .l-nav--trigger.tac.poa
+      .l-nav--trigger.tac.poa class="#{'dn' if current_page.data.type == 'home'}"
         .hamburger
           ul
             li
