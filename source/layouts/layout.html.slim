@@ -28,10 +28,11 @@ html
         span.mtxxs.ttu.db
           | Menu
       .l-header--logo.tar
-        h1.plxxs.prxxs
-          | Rodrigo Dalcin
-        strong.dib.plxxs.prxxs.ttu
-          | UX Specialist
+        = link_to '/' do
+          h1.plxxs.prxxs
+            | Rodrigo Dalcin
+          strong.dib.plxxs.prxxs.ttu
+            | UX Specialist
     main class="s-#{current_page.data.type}"
       = yield
     footer
