@@ -26,7 +26,7 @@ overview:
   intro:
     - "Greetabl is a startup based in Saint Louis, whose mission is to make the art of casual gifting easier and more fun."
   problem:
-    - "With almost half of their website traffic coming from mobile users, Greetabl was seeing a higher bounce rate and influx of customer service issues coming from that segment."
+    - "With almost half of their website traffic coming from mobile users, Greetabl was seeing a higher bounce rate and an influx of customer service issues coming from that segment."
   solution:
     - "I pinpointed the most relevant UI/UX and content issues that were potentially damaging Greetabl's mobile experience, which helped the design and content strategy teams focus on relevant areas of improvement."
   workflow:
@@ -39,7 +39,7 @@ overview:
       visuals:
         - "usability_patterns.jpg"
     - block:
-      copy: "The insights from these usability sessions was then used to define a list of opportunities for UI/UX improvement. I also made sure these were aligned with a list of references and best practices from a heuristics exercise I had conducted alongside Greetabl stakeholders during the project kickoff. Among the aspects highlighted were ease of use, minimalistic UI and level of product customization."
+      copy: "The insights from these usability sessions were then used to define a list of opportunities for UI/UX improvement. I also made sure these were aligned with a list of references and best practices from a heuristics exercise I had conducted alongside Greetabl stakeholders during the project kickoff. Among the aspects highlighted were ease of use, minimalistic UI, and level of product customization."
       visuals:
         - "heuristics.jpg"
     - block:
@@ -51,4 +51,4 @@ overview:
             - "custom_03.png"
             - "checkout_signup_after.gif"
   learnings:
-    - "The most interesting thing about this project was being able to apply my coding skills as a way to quickly convey how an existing experience can become better. This created a multidisciplinary bridge across all project teams, allowing me to use a common language in order to strategize, mediate and guide work between UI designers and UI engineers."
+    - "The most interesting thing about this project was being able to apply my coding skills as a way to quickly convey how to improve a mobile shopping experience. This created a multidisciplinary bridge across all project teams, allowing me to use a common language in order to strategize, mediate and guide work between UI designers and UI engineers."

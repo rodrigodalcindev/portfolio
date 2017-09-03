@@ -25,16 +25,16 @@ overview:
         - Data Analysis
   blurb: "Online customers were struggling with this maternity clothing brand's unique approach to sizing."
   intro:
-    - "Hatch is an online maternitiy clothing brand based in New York. They differentiate themselves from regular retail brands by selling versatile designer's pieces that can be worn both during and post-pregnancy."
+    - "Hatch is an online maternity clothing brand based in New York. They differentiate themselves from regular retail brands by selling versatile designer's pieces that can be worn both during and post-pregnancy."
   problem:
-    - "Hatch customers had a hard time understanding the brand's concept. Their unique sizing progression led to confusion and second-guessing. As a result, their customer service department received a lot of inquiries about returns and exchanges."
+    - "Hatch customers were having a hard time understanding the brand's concept. Their unique sizing progression led to confusion and second-guessing. As a result, their customer service department received a lot of inquiries about returns and exchanges."
   solution:
-    - "I mapped out the issues being faced by their online customers and rooted them in stories shared by recent moms and pregnant women about their experiences while shopping for maternity clothing, both online and offline. I've also conducted usability tests in order to validate UI/UX improvements. This gave Hatch the necessary understanding of which areas of their shopping experience needed to be improved, as well as informed the design and development teams, who worked on building a feature to guide users into finding their perfect Hatch fit."
+    - "I mapped out the issues being faced by their online customers and rooted them in stories shared by moms and moms-to-be about their experiences shopping for maternity clothing online and offline. I've also conducted usability tests in order to validate any existing UI/UX issues. This gave Hatch a clear understanding of which areas of their shopping experience needed to be improved, as well as served to inform the design and development teams, who worked on building a feature to guide customers into finding their perfect Hatch fit."
   workflow:
     - block:
-      copy: "I worked on two user research fronts by interviewing women who were either pregnant or had recently gone through pregnancy, while setting up an online survey to capture feedback from customers who had completed a purchase on Hatch's existing website. My goal was to uncover expectations and struggles from users around shopping for maternity clothing through multiple channels, including the Hatch's existing website."
+      copy: "I worked on two user research fronts, one based on in-person interviews with women who were either pregnant or had recently gone through pregnancy, and the other through an online survey set up to capture feedback from successful conversions on Hatch's website. My goal was to uncover insights from customers shopping for maternity clothing across multiple channels."
     - block:
-      copy: "The insights from the online survey and the interviews were used to create a set of three different user journey maps, representing key phases of a woman's maternity journey crossing over the brand's touchpoints."
+      copy: "Based on these insights, I created a set of three different user journey maps, representing which key phases of a woman's maternity journey intersected with the brand's touchpoints."
       visuals:
         - "user-journey-01.jpg"
         - "user-journey-02.jpg"
@@ -44,11 +44,11 @@ overview:
       visuals:
         - "scenarios.jpg"
     - block:
-      copy: "It was clear that most of the insights crossed over with opportunities to improve understanding around Hatch's approach to fit and sizing. The project team got together for an ideation exercise and came up with sketches suggesting ways of how women could find their perfect maternity size and fit by answering a few questions about themselves."
+      copy: "It was clear that most of these insights crossed over with opportunities to improve understanding around Hatch's approach to fit and sizing. The project team got together for an ideation exercise and came up with sketches suggesting various ways to help women find their perfect maternity size and fit by answering a few simple questions about themselves."
       visuals:
         - "sketches.jpg"
     - block:
-      copy: "The most valuable aspects of these sketches were then turned into a sequence of wireframes describing what came to be a feature called Fit Finder, which was later prototyped and tested with real users. The feedback compiled from these usability testing sessions served to inform UI design and guide the feature development."
+      copy: "The most valuable aspects of this ideation session were transformed into a sequence of wireframes that described what came to be a feature called Fit Finder, which was later prototyped and tested with real users. The feedback compiled from this round of usability tests helped to refine the UI design and guide the feature development."
       visuals:
         groups:
           - group:
@@ -58,5 +58,5 @@ overview:
           - group:
             - "prototype.gif"
   learnings:
-    - "This project offered me an opportunity to understand more about users with very specific needs, while helping a client fine tune their unique approach to an important market niche."
-    - "It also gave me the chance to double as a UX Designer while being more involved with the UI design and development stages of the product, which made for a wholesome user experience mandate."
+    - "This project gave me the opportunity to understand more about users with very specific needs while helping a client fine tune their unique approach to an important marketing niche."
+    - "It also gave me the chance to double as a UX Designer while being closely involved with both the UI design and development stages of the digital experience, making it a wholesome client mandate."

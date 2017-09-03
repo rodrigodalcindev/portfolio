@@ -12,41 +12,41 @@ overview:
         - User Journeys
   blurb: "I helped this recreational cannabis start-up uncover and understand a very diverse target audience."
   intro:
-    - "Tokyo Smoke is a Toronto-based company aiming to bring a lifestyle and design-oriented take to the recreational cannabis space in light of the regulation framework being implemented by the Canadian government."
+    - "Tokyo Smoke is a Toronto-based company aiming to bring a lifestyle and design-oriented take to the recreational cannabis space, in light of the regulatory framework being implemented by the Canadian government."
   problem:
-    - "Tokyo Smoke's brand positioning was not entirely clear to their target audience. Lack of specialized online content was also an issue they wanted to addresss, but weren't quite sure about where to focus on."
+    - "Tokyo Smoke's brand positioning was not entirely clear to their target audience. A lack of specialized online content was also an issue the client wanted to address but wasn't quite sure about what to prioritize and focus on."
   solution:
-    - "I conducted a series of interviews that resulted in a concise and informative snapshot of Tokyo Smoke's target audience archetypes. This helped the client understand how to shape their online content experience, fulfilling their customer's information and knowledge needs while favouring user conversion."
+    - "I conducted a series of interviews that resulted in a detailed and informative set of personas and user journeys. This helped the client understand how to shape their online content experience, fulfilling the audience's need for knowledge and information while favoring user conversion."
   workflow:
     - block:
-      copy: "My data-capturing process started with the recruting phase. Results from an online survey filled by interested participants served as output to key information about demographics, consumption habits and drivers."
+      copy: "I started by capturing data with the recruiting phase. The results from an online survey filled by potential research participants served as a preliminary output of key information about demographics, consumption habits, and motivations."
       visuals:
         - "recruiting.jpg"
     - block:
-      copy: "Using qualitative research as an exploratory method, I recruited and interviewed ten participants, including both novices and active cannabis consumers. My goal was to learn more about the feelings and expectations based on individual opinions, stories and experiences. The group of people I interviewed embodied a diverse target audience, which resulted in a set of four different personas."
+      copy: "Using qualitative research as an exploratory method, I recruited and interviewed ten participants ranging from novices to active cannabis consumers. My goal was to learn more about their feelings and expectations based on opinions, stories, and experiences. The group of people I interviewed embodied a very diverse target audience, which resulted in a set of four different personas."
       visuals:
         - "persona-01.jpg"
         - "persona-02.jpg"
         - "persona-03.jpg"
         - "persona-04.jpg"
     - block:
-      copy: "Among the recurring themes, the need for information and education about cannabis consumables was definitely predominant. In light of legalization by the Canadian government, people expect detailed information in regards to sourcing and production, strain variety and components, range of psychoactive effects, potency and methods of consumption."
+      copy: "Among the recurring themes, a need for information and knowledge about cannabis consumables was clearly predominant. In light of the legalization process by the Canadian government, people expected to find detailed and educational content touching on themes such as sourcing and production, strain variety and components, psychoactive effects, dosage, potency and alternative methods of consumption."
       visuals:
         - "usability_patterns-01.jpg"
     - block:
-      copy: "Normalization of shopping experiences also presented considerable relevance. I found out that people draw strongly from what they're already familiar with such as shopping for wine, coffee or tea. This insight revealed that the recreational cannabis market should focus on approachability, consistency and product curation."
+      copy: "The normalization of shopping experiences also displayed considerable relevance. I found out that people tend to refer to what they're already familiar with such as buying wine, coffee or organic food. This insight revealed that the recreational cannabis market should focus on approachability, consistency and product curation."
       visuals:
         - "usability_patterns-02.jpg"
     - block:
-      copy: "Finally, the topic of legalization brought up lots of mixed feelings, information gaps and unknowns. People's perception of the future of cannabis in Canada oscillated heavily between skepticism and optimism, which provided an opportunity for educational content."
+      copy: "Finally, the topic of legalization brought up lots of mixed feelings, information gaps, and unknowns. People's perception of the future of cannabis in Canada oscillated heavily between skepticism and optimism, which provided an opportunity for content around government policies."
       visuals:
         - "usability_patterns-03.jpg"
     - block:
-      copy: "I compiled and analyzed feedback from this series of interviews, identifying any revealing patterns that could later be translated into journey maps and highlighting opportunities for Tokyo Smoke to shape an educational content-driven eCommerce experience."
+      copy: "I compiled and analyzed feedback from these interviews, identifying any significant patterns that could later be translated into journey maps and highlighted as opportunities to shape a content-driven eCommerce experience."
       visuals:
         - "user-journey-01.jpg"
         - "user-journey-02.jpg"
         - "user-journey-03.jpg"
         - "user-journey-04.jpg"
   learnings:
-    - "Doing UX research on such an unique topic gave me the opportunity to dissipate stigmas and enhance my empathy skills, refining my qualitative research skills in order to be able to identify behavioural nuances and better extract relevant insights."
+    - "Doing UX research on such a unique topic allowed me to dissipate stigmas and enhance my empathy skills. I was also able to refine my qualitative skills, identifying behavioral nuances and deriving precise insights."
