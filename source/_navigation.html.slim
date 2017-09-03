@@ -1,0 +1,27 @@
+nav.pof
+  ul.l-nav--tree
+    li
+      h2.has-highlighter.inverted.dib
+        = link_to 'Home', '/'
+    li.l-nav--work.mtm
+      h2
+        | Work
+      ul
+        - data.projects.each do |p|
+          li.mts
+            h3.has-highlighter.inverted.dib.ttu
+              = link_to "#{data.projects[p.first].overview.title}", "#{'/work/' + p.first + '.html'}"
+    li.l-nav--about.mtm
+      h2.has-highlighter.inverted.dib
+        = link_to 'About Me', '/about.html'
+    li.mtm
+      h2.has-highlighter.inverted.dib
+        = link_to 'Email', 'mailto:ux@rodrigodalcin.com'
+    li.mtm
+      h2.has-highlighter.inverted.dib
+        = link_to 'Resume', '#'
+  .l-nav--trigger.tac.poa
+    i
+      | ←
+    span.mtxxs.ttu.db
+      | Back

@@ -6,7 +6,7 @@ html
     meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"
 
     title
-      = "Rodrigo Dalcin - UX Researcher"
+      = "Rodrigo Dalcin - UX Specialist"
 
     = javascript_include_tag :site
 
@@ -17,22 +17,23 @@ html
     = stylesheet_link_tag :site
 
   body
-    header class="#{'is-redux pof' unless current_page.data.type == 'home'}" data-page="#{current_page.data.type}"
+    = partial 'navigation'
+    header class="#{current_page.data.type == 'home' ? 'por' : 'is-redux pof'}" data-page="#{current_page.data.type}"
+      .l-nav--trigger.tac.poa
+        .hamburger
+          ul
+            li
+            li.mtxxs
+            li.mtxxs
+        span.mtxxs.ttu.db
+          | Menu
       .l-header--logo.tar
         h1.plxxs.prxxs
           | Rodrigo Dalcin
         strong.dib.plxxs.prxxs.ttu
           | UX Specialist
-      - unless current_page.data.type == "home"
-        nav.l-nav--action.tac.poa
-          = link_to '/' do
-            i.db
-              | ←
-            span.weight-medium.mtxxs.ttu.db
-              | Back
     main class="s-#{current_page.data.type}"
       = yield
     footer
-      .s-home-section--trigger
-        h1.has-highlighter
-          = link_to 'Contact', '#'
+      h1.has-highlighter
+        = link_to 'Contact', '#'
