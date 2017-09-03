@@ -9,6 +9,10 @@
     &.s-home--about
       background: $verdigris
 
+      @include respond-to("bp--0")
+        height: 15vh
+        min-height: 0
+
     &:not(.s-home--work)
       @include display(flex)
       @include align-items(center)
