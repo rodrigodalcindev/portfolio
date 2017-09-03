@@ -36,5 +36,10 @@ html
     main class="s-#{current_page.data.type}"
       = yield
     footer
-      h1.has-highlighter
-        = link_to 'Contact', '#'
+      ul
+        li.dib.prs
+          h2.has-highlighter
+            = link_to 'Email', 'ux@rodrigodalcin.com'
+        li.dib.pls
+          h2.has-highlighter
+            = link_to 'Resume', '#'
