@@ -38,6 +38,8 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
+  activate :relative_assets
+
   activate :robots, :rules => [
     {:user_agent => '*', :disallow => %w(/)}
   ]
