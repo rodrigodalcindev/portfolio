@@ -6,8 +6,10 @@ section.s-project--intro.ptxxl.pbl
       h2.s-project--title.mbm
         = data.projects[current_page.data.id].overview.title
       - data.projects[current_page.data.id].overview.intro.each do |p|
-        p.lead
+        p.lead.pbxxs
           = p
+        p.lead.cta.weight-medium
+          = link_to 'Visit the website ↗', "#{data.projects[current_page.data.id].overview.url}", target: "_blank"
 
 section.s-project--workflow.ptm.pbm
   .g-pageContainer
