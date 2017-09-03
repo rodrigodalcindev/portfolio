@@ -11,19 +11,17 @@ section.s-project--intro.ptxxl.pbl
 
 section.s-project--workflow.ptm.pbm
   .g-pageContainer
-    .g-pageContainer-column--oneThird.vat
-      h3.dib.vat
-        | Workflow
-    .g-pageContainer-column--twoThirds.vat
-      .s-project--activities.mbxxs.dib.vat
-        - data.projects[current_page.data.id].overview.methodology.each_with_index do |m, idx|
-          span.weight-medium.db class="#{'mtl' unless idx == 0}"
-            = m.name
-          ul
-            - m.items.each do |i|
-              li.dib.mrm.mts
-                span.tag.dib.paxxs
-                  = i
+    h3.mbm
+      | Workflow
+    .s-project--activities.mbxxs.dib.vat
+      - data.projects[current_page.data.id].overview.methodology.each_with_index do |m, idx|
+        span.weight-medium.db class="#{'mtl' unless idx == 0}"
+          = m.name
+        ul
+          - m.items.each do |i|
+            li.dib.mrm.mts
+              span.tag.dib.paxxs
+                = i
 
 section.s-project--problem.ptm.pbm
   .g-pageContainer
