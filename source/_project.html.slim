@@ -9,7 +9,7 @@ section.s-project--intro.ptxxl.pbl
         p.lead
           = p
 
-section.s-project--workflow.ptl.pbl
+section.s-project--workflow.ptm.pbm
   .g-pageContainer
     .g-pageContainer-column--oneThird.vat
       h3.dib.vat
@@ -25,7 +25,7 @@ section.s-project--workflow.ptl.pbl
                 span.tag.dib.paxxs
                   = i
 
-section.s-project--problem.ptl.pbl
+section.s-project--problem.ptm.pbm
   .g-pageContainer
     h3.mbm
       | Issue
@@ -34,7 +34,7 @@ section.s-project--problem.ptl.pbl
       p
         = p
 
-section.s-project--solution.ptl.pbl
+section.s-project--solution.ptm.pbm
   .g-pageContainer
     h3.mbm
       | Solution
@@ -43,7 +43,7 @@ section.s-project--solution.ptl.pbl
         p
           = p
 
-section.s-project--approach.ptl
+section.s-project--approach.ptm
   .g-pageContainer
     h3.mbm
       | Approach
@@ -54,7 +54,7 @@ section.s-project--approach.ptl
         = b.copy
 
     - if b.include? "visuals"
-      .s-project--visuals.ptxl.pbxl.mtl.mbxxl class="#{b.visuals.length > 1 ? 'slideshow' : 'non-slideshow'}"
+      .s-project--visuals.ptxl.pbxl.mtl.mbxl class="#{b.visuals.length > 1 ? 'slideshow' : 'non-slideshow'}"
         - if !b.visuals.include? "groups"
           - b.visuals.each do |v|
             figure.mtl.mbl.mlm.mrm
@@ -67,7 +67,7 @@ section.s-project--approach.ptl
                   figure.mlm.mrm
                     img.db src="/images/work/#{current_page.data.id}/#{vv}" data-featherlight="/images/work/#{current_page.data.id}/#{vv}"
 
-section.s-project--solution.pbxxl
+section.s-project--solution.pbxl
   .g-pageContainer
     h3.mbm
       | Learnings
