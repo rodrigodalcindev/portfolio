@@ -24,7 +24,7 @@ footer
   width: 100%
 
   @include respond-to("bp--0")
-    height: 15vh
+    height: 20vh
     min-height: 0
 
 header
@@ -133,6 +133,11 @@ img
       font-size: rem(11)
 
 footer
-  ul li
-    &:first-child
-      border-right: rem(2) solid $smoke-white
+  @include respond-to("bp--0")
+    ul li:last-child
+      margin-top: $b-space-s
+
+    h2
+      font-size: rem(20)
+      letter-spacing: rem(-0.42)
+
