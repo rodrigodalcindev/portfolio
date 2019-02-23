@@ -1,0 +1,11 @@
+overview:
+  locked: true
+  title: "Inclusive Internet"
+  methodology:
+    - method:
+      name: UX Research
+    - method:
+      name: UX Design
+    - method:
+      name: Usability Testing
+  blurb: "I worked with a non-profit to help make internet access more affordable to low-income Canadian families."
