@@ -10,7 +10,10 @@ nav.pof
         - data.projects.each do |p|
           li.mts
             h3.has-highlighter.inverted.dib.ttu
-              = link_to "#{data.projects[p.first].overview.title}", "#{'/work/' + p.first + '.html'}"
+              - if data.projects[p.first].overview.locked
+                = link_to "#{data.projects[p.first].overview.title}", '/index.html'
+              - else
+                = link_to "#{data.projects[p.first].overview.title}", "#{'/work/' + p.first + '.html'}"
     li.l-nav--about.mtm
       h2.has-highlighter.inverted.dib
         = link_to 'About Me', '/about.html'

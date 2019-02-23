@@ -2,26 +2,59 @@
 type: "home"
 ---
 
-section.s-home--work.ptxxl.pbxxl
+section.s-home--work.ptxxs
   ul.tac
+    li.dib.mlm.mrm.mtxxl.mbxxl.tal
+      = link_to "mailto:ux@rodrigodalcin.com" do
+        .s-home--card.feature.pbl.pll.prl
+          figure.mbxl.por
+            img.db.poa src="/images/work/contentful/main.png"
+            figcaption
+              h2.mbxxs
+                = "Contentful"
+              p.weight-medium.mbs
+                = "UX Research, Usability Testing, ResearchOps, Training"
+              p.lead
+                = "I spent a year being part of this ascending startup's UX team, where I contributed to shaping up their research workflow, empowering peers and conveying customer insights to the organization at large."
+          p.lead.cta.weight-medium
+            | Case study coming soon
     - data.projects.each do |p|
-      li.dib.mlm.mrm.tal
-        = link_to "#{'/work/' + p.first + '.html'}" do
-          .s-home--card.pbl.pll.prl
-            figure.mbxl.por
-              img.db.poa src="#{'/images/work/' + p.first + '/main.png'}"
-              figcaption
-                h2.mbxxs
-                  = data.projects[p.first].overview.title
-                p.weight-medium.mbs
-                  - data.projects[p.first].overview.methodology.each_with_index do |m, idx|
-                    = m.name
-                    - unless data.projects[p.first].overview.methodology.last == m
-                      |,&nbsp;
-                p.lead
-                  = data.projects[p.first].overview.blurb
-            p.lead.cta.weight-medium
-              | See case study ->
+      li.dib.mlm.mrm.mtxxl.mbxxl.tal
+        - if data.projects[p.first].overview.locked
+          = link_to "mailto:ux@rodrigodalcin.com" do
+            .s-home--card.pbl.pll.prl
+              figure.mbxl.por
+                img.db.poa src="#{'/images/work/' + p.first + '/main.png'}"
+                figcaption
+                  h2.mbxxs
+                    = data.projects[p.first].overview.title
+                  p.weight-medium.mbs
+                    - data.projects[p.first].overview.methodology.each_with_index do |m, idx|
+                      = m.name
+                      - unless data.projects[p.first].overview.methodology.last == m
+                        |,&nbsp;
+                  p.lead
+                    = data.projects[p.first].overview.blurb
+              p.lead.cta.weight-medium
+                | Wanna learn more? Contact me  ↗
+        - else
+          = link_to "#{'/work/' + p.first + '.html'}" do
+            .s-home--card.pbl.pll.prl
+              figure.mbxl.por
+                img.db.poa src="#{'/images/work/' + p.first + '/main.png'}"
+                figcaption
+                  h2.mbxxs
+                    = data.projects[p.first].overview.title
+                  p.weight-medium.mbs
+                    - data.projects[p.first].overview.methodology.each_with_index do |m, idx|
+                      = m.name
+                      - unless data.projects[p.first].overview.methodology.last == m
+                        |,&nbsp;
+                  p.lead
+                    = data.projects[p.first].overview.blurb
+              p.lead.cta.weight-medium
+                | See case study ->
+        end
 
 section.s-home--about
   h1.has-highlighter
