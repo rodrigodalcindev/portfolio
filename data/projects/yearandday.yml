@@ -1,0 +1,62 @@
+overview:
+  title: "Year & Day"
+  url: "https://greetabl.com/"
+  roles:
+    - UX Researcher
+  methodology:
+    - method:
+      name: UX Research
+      items:
+        - Competitive Analysis
+        - Quantitative Data Analysis
+    - method:
+      name: Ideation
+      items:
+        - Sketching Exercises
+        - Design Principles
+        - Static Protoyping
+    - method:
+      name: Usability Testing
+      items:
+        - Screening
+        - Recruiting
+        - Usability Testing
+        - Data Analysis
+  blurb: "This dinnerware company wanted to make customizing tabletop sets easier for online shoppers."
+  intro:
+    - "Year & Day is a tableware brand aiming to bring a unique take on ceramics and offering customers a chance to customize dinnerware sets according to their personal needs."
+  problem:
+    - "Shopping for tableware can often feel overwhelming and confusing. Year & Day's goal was to address that problem by incorporating a simplified set personalization process into their online shopping flow."
+  solution:
+    - "I facilitated the ideation session around a personalization feature, helped to prototype it and conducted usability testing with participants fitting Year & Day's customer demographic. This generated not only one of the main differentiators of the client's online shopping experience but also set standards for optimizing the content, visuals, and interactivity of Year & Day's eCommerce application in its entirety."
+  workflow:
+    - block:
+      copy: "I started by diving into market insights provided by Year & Day in order to outline feedback patterns and trends that'd indicate the most relevant problems people faced when shopping for dinnerware, both online and in stores."
+      visuals:
+        - "marketing-insights.jpg"
+    - block:
+      copy: "During the project kickoff, I moderated an ideation exercise involving the company's CEO and key stakeholders along with the internal team, where visual mockups of the dinnerware personalization process were sketched out and discussed with the goal of answering the following problem-statement: 'How might we guide customers through a simplified process for purchasing a personalized tabletop set?' "
+      visuals:
+        - "sketches.jpg"
+    - block:
+      copy: "The ideation session resulted in a clear user experience direction for wireframing and prototyping. I worked closely with a UX Designer, who helped materializing these deliverables and ensured usability testing could be conducted earlier on"
+      visuals:
+        groups:
+          - group:
+            - "wireframes-01.jpg"
+          - group:
+            - "wireframes-02.jpg"
+    - block:
+      copy: "I spoke to six participants and observed them test our prototype while comparing it to their own personal tableware-shopping experiences. The feedback from these tests gave us some valuable insights in regards to the level of complexity and time surrounding the usability of the personalization feature."
+      visuals:
+        groups:
+          - group:
+            - "usability_patterns.jpg"
+    - block:
+      copy: "Insights gathered from usability testing informed both UI/UX design and development, as well as which tone and voice better suited the copywriting for the Year & Day website as a whole."
+      visuals:
+        groups:
+          - group:
+            - "prototype-desktop.gif"
+  learnings:
+    - "Personalization-based projects like Year & Day are always a great opportunity to learn more about user behavior in a more granular way. This gave me a good sense of how important and often overlooked some usability details are, especially in digital experiences that intersect with products requiring a considerable level of customization."
