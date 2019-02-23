@@ -1,4 +1,5 @@
 overview:
+  locked: false
   title: "Greetabl"
   url: "https://greetabl.com/"
   roles:

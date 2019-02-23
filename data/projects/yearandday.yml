@@ -1,4 +1,5 @@
 overview:
+  locked: false
   title: "Year & Day"
   url: "https://greetabl.com/"
   roles:
