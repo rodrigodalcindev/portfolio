@@ -1,4 +1,5 @@
 overview:
+  locked: false
   title: "Hatch"
   url: "http://www.hatchcollection.com/"
   roles:

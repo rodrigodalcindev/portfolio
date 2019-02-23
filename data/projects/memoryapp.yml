@@ -1,0 +1,11 @@
+overview:
+  locked: true
+  title: "Memory App"
+  methodology:
+    - method:
+      name: UX Research
+    - method:
+      name: UX Design
+    - method:
+      name: Usability Testing
+  blurb: "I was prompted to uncover insights on how people cultivate and share memories with loved ones."

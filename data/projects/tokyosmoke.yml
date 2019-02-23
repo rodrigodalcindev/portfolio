@@ -1,4 +1,5 @@
 overview:
+  locked: false
   title: "Tokyo Smoke"
   url: "https://ca.tokyosmoke.com/"
   roles:

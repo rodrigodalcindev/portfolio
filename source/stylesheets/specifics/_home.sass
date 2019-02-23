@@ -23,15 +23,12 @@
 
 .s-home--work
   ul
-    margin-top: rem(175)
-
-  @include respond-to("bp--3")
-    ul
-      margin-top: rem(110)
+    width: 90%
 
   @include respond-to("bp--2")
     ul
       margin-top: 0
+      width: 100%
 
       li
         display: block
@@ -41,36 +38,35 @@
         &:first-child
           margin-top: 0
 
-  @include respond-to("bp--2")
-    padding: $b-space-xl 0
-
 .s-home--card
-  @include transition(box-shadow .5s ease-out)
-  box-shadow: 0px 0px 0px 0px rgba($black, 0)
-  background: $smoke-white
   max-width: rem(420)
   width: 100%
 
-  &:hover
-    box-shadow: 5px 5px 0px 0px rgba($black, 0.15)
+  &.feature
+    max-width: rem(900)
 
-  figure
-    padding-top: rem(145)
-
-  img
-    @include transform(translate(-50%, -100%))
-    left: 50%
-    top: rem(115)
-    width: 100%
-
-    &[src*="greetabl"]
+    img
+      max-width: none
       width: 75%
 
-  @include respond-to("bp--3")
-    max-width: rem(340)
+  &:hover
+    figcaption
+      box-shadow: 5px 5px 0px 0px rgba($black, 0.15)
 
-    p:not(.lead)
-      font-size: rem(14)
+  img
+    margin-bottom: rem(115)*-1
+    max-width: rem(360)
+    width: 100%
+
+    &[src*="greetabl"],
+    &[src*="memoryapp"]
+      width: rem(270)
+
+  figcaption
+    @include transition(box-shadow .5s ease-out)
+    box-shadow: 0px 0px 0px 0px rgba($black, 0)
+    background: $smoke-white
+    padding-top: rem(145)
 
   @include respond-to("bp--2")
     max-width: rem(800)
@@ -81,21 +77,20 @@
     figure
       padding: 0
 
-    img
-      @include transform(translate(0,0))
-      margin: 0 auto $b-space-l
-      max-width: 100%
-      position: static
+    img,
+    img[src*="greetabl"],
+    img[src*="memoryapp"]
+      max-width: 90%
       width: auto
-
-      &[src*="greetabl"]
-        width: auto
 
     p:not(.lead)
       font-size: rem(16)
 
+    &.feature
+      max-width: rem(800)
+
+      img
+        width: 90%
+
   @include respond-to("bp--0")
     padding: $b-space
-
-    figure
-      margin-bottom: $b-space
