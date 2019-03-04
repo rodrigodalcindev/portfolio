@@ -8,12 +8,12 @@ overview:
     - method:
       name: UX Research
       items:
-        - Competitive Analysis
+        - Heuristics
         - Quantitative Data Analysis
     - method:
-      name: Ideation
+      name: UX Design
       items:
-        - Sketching Exercises
+        - Ideation
         - Design Principles
         - Static Protoyping
     - method:
@@ -21,7 +21,6 @@ overview:
       items:
         - Screening
         - Recruiting
-        - Usability Testing
         - Data Analysis
   blurb: "This dinnerware company wanted to make customizing tabletop sets easier for online shoppers."
   intro:
