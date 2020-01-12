@@ -7,16 +7,31 @@ section.s-home--work
     li.dib.mlm.mrm.mtl.mbl.tal
       .s-home--card.feature
         figure.por
-          img.db.mhc src="/images/work/contentful/main.png"
+          img.db.mhc src="/images/work/cn/main.png"
+          figcaption.pbl.pll.prl
+            h2.mbxxs
+              = "CN (Canadian National Railway)"
+            p.weight-medium.mbs
+              = "UX Research, Usability Testing, ResearchOps, Workshop Facilitation"
+            p.lead
+              = "<span class='weight-medium'>I am currently the UX Research Lead at CN</span>, a major North American freight transportation and logistics company. I actively contribute to CN's digital transformation while keeping it aligned to its  core business strategy. My role is mainly focused on rolling out research insights and UX design improvements to key processes and applications within the organization's technology ecosystem."
+            = link_to "mailto:ux@rodrigodalcin.com" do
+              p.lead.cta.weight-medium.mtxl
+                | Contact me to learn more  ↗
+    li.dib.mlm.mrm.mtl.mbl.tal
+      .s-home--card
+        figure.por
+          img.db.mhc src="/images/work/contentful/main-01.png"
           figcaption.pbl.pll.prl
             h2.mbxxs
               = "Contentful"
             p.weight-medium.mbs
-              = "UX Research, Usability Testing, ResearchOps, Training and Workshop Facilitation"
+              = "UX Research, Usability Testing, ResearchOps"
             p.lead
-              = "I spent a year being part of the UX research team at <a href='https://www.contentful.com/' target='_blank'>Contentful</a>, a leading startup in content management infrastructure based in Berlin, Germany. I contributed to the shaping of their research workflow, empowered peers with best practices in user research, and conveyed customer insights to the organization at large on a regular basis through qualitative and quantitative methods."
-            p.lead.cta.weight-medium.mtxl
-              | Case study coming soon
+              = "I helped shaping <a href='https://www.contentful.com/' target='_blank'>Contentful</a>'s research workflow and conveying customer insights to various product teams."
+            = link_to "mailto:ux@rodrigodalcin.com" do
+              p.lead.cta.weight-medium.mtxl
+                | Contact me to learn more  ↗
     - data.projects.each do |p|
       li.dib.mlm.mrm.mtl.mbl.tal
         - if data.projects[p.first].overview.locked
@@ -52,7 +67,7 @@ section.s-home--work
                   p.lead
                     = data.projects[p.first].overview.blurb
                   p.lead.cta.weight-medium.mtxl
-                    | See case study ->
+                    | See case study →
         end
 
 section.s-home--about
